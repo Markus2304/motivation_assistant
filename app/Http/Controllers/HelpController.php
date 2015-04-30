@@ -11,7 +11,7 @@ class HelpController extends Controller {
 
     public function index()
     {
-        return "help";
+        return view ('forum');
     }
 
 }

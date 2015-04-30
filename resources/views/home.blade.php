@@ -2,8 +2,8 @@
 
 @section('content')
 
-
-    <div class="col-md-9">
+    <div class="col-md-2"></div>
+    <div class="col-md-7">
         @yield('left')
     </div>
 
