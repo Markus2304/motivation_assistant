@@ -12,6 +12,9 @@
                     <h4 class="media-heading">{{$uporabnik->izobrazba}}</h4>
                     <h4 class="media-heading">{{$uporabnik->telefon}}</h4>
                     <h4 class="media-heading">{{$uporabnik->email}}</h4>
+                    <h4 class="media-heading">
+                        <a href="edit">Uredi profil</a>
+                    </h4>
                 </div>
             </div>
         </div>

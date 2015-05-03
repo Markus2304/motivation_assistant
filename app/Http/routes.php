@@ -28,6 +28,8 @@ Route::get('suggest', 'SuggestController@index');
 
 Route::get('edit', 'EditController@index');
 
+Route::post('updateProfile', 'UpdateProfileController@index');
+
 Route::get('database', function() {
 
     DB::insert('insert into oseba (ime, priimek, email, password) VALUES (?,?,?,?)', array('Markus', 'Skubic', 'markus@aaa.com', Hash::make('markus')));
