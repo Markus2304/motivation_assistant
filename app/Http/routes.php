@@ -28,7 +28,7 @@ Route::get('suggest', 'SuggestController@index');
 
 Route::get('database', function() {
 
-    DB::insert('insert into oseba (ime, priimek, email, password) VALUES (?,?,?,?)', array('Vid', 'Mahovič', 'vid@aaa.com', Hash::make('vid')));
+    DB::insert('insert into oseba (ime, priimek, email, password) VALUES (?,?,?,?)', array('Markus', 'Skubic', 'markus@aaa.com', Hash::make('markus')));
 
     /*User::create([
        'email' => 'vid.aaa@gmail.com',
